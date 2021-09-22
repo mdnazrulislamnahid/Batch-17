@@ -1,0 +1,106 @@
+header{
+  background-color: #373737;
+  color: #ddd;
+  transition: .5s;
+}
+header:hover{
+  background-color: #737373;
+}
+body{
+  overflow-x: hidden;
+}
+.logo img{
+  width: 300px;
+}
+.banner-section{
+  background: #dedede;
+}
+.social-icon{
+  padding: 0;
+}
+.social-icon ul{
+  padding: 0;
+}
+.social-icon ul li{
+  display: inline-block;
+  list-style: none;
+}
+.social-icon ul li a{
+  display: block;
+  color: #555;
+  padding-right: 10px;
+  font-size: 18px;
+}
+.social-icon ul li a i{
+  transition: .4s;
+}
+.social-icon ul li:hover a i{
+  color: #333;
+}
+.card-unborder{
+  background-color: rgba(85, 85, 85, 0.303);
+  border: none;
+  transition: .5s;
+  border-radius: 10px;
+}
+.card-body {
+  color: #000d20;
+  transition: .5s;
+}
+.card-text{
+  color: #000d20;
+  font-size: 16px;
+  font-weight: 600;
+  transition: ;
+}
+.card-unborder:last-child{
+  margin-left: 10px;
+}
+.size-t{
+  margin-top: -38px;
+}
+.card-lst{
+  margin-start: -30px;
+}
+.card-unborder:hover{
+  background-color: #777;
+}
+.card-unborder:hover .card-title{ 
+  color: #eee;
+}
+.card-unborder:hover .card-text{ 
+  color: #eee;
+}
+.card-unborder:hover .card-link{ 
+  color: #eee;
+}
+
+
+/* captain-section */
+.captain-section{
+  padding: 170px 0 60px ;
+  background: #fafafa;
+}
+.salehin-left{
+  margin-left: 200px;
+}
+.nahid-right{
+  margin-right: 200px;
+}
+.student-section{
+  padding: 60px 0;
+}
+
+/* footer-section */
+.footer-section{
+  padding: 25px 0 22px;
+  background: #0e2431;
+}
+.footer-section h6{
+  color: #fff;
+}
+.footer-section h6 a{
+  font-size: 20px;
+  text-decoration: none;
+  color: #777;
+}
